@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+      body {
+        @apply select-none font-tajawal;
+      }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* تخصيص الشريط الكامل */
+::-webkit-scrollbar {
+    width: 10px; /* عرض الشريط */
+    height: 10px;
+}
+
+/* تخصيص مسار الشريط */
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* تخصيص إبهام الشريط */
+::-webkit-scrollbar-thumb {
+    background: rgb(22 163 74); /* لون الإبهام */
+    border-radius: 10px; /* حواف الإبهام */
+}
+
+/* تخصيص إبهام الشريط عند التفاعل (مثل hover) */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(29 202 93); /* لون الإبهام عند التفاعل */
+}
+/* Scroll */

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./dist.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Icon Rmix -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rahalaty</title>
+</head>
+<body class="antialiased">
+    <!-- header -->
+     <header class="flex flex-col min-h-screen items-center bg-[url('./img/landing-background.jpg')] bg-cover bg-center mx-auto">
+            <nav class="w-full flex flex-row-reverse justify-between items-center px-5 py-2 absolute bg-color-1">
+                    <div class="flex flex-row-reverse items-center md:mr-[50px]">
+                        <div>
+                            <img src="./img/logo.png" alt="LOGO" width="50px" class="mx-2 lg:mx-5">
+                        </div>
+                        <ul class="hidden md:flex flex-row-reverse text-white lg:mr-10">
+                            <li class="mx-2  hover:text-gray-700 transition">
+                                <a href="#">الرئيسية</a>
+                            </li>
+                            <li class="mx-2  hover:text-gray-700 transition">
+                                <a href="#">النشاطات</a>
+                            </li>
+                            <li class="mx-2  hover:text-gray-700 transition">
+                                <a href="#">الخدمات</a>
+                            </li>
+                            <li class="mx-2  hover:text-gray-700 transition">
+                                <a href="#">من نحن</a>
+                            </li>
+                            <li class="mx-2  hover:text-gray-700 transition">
+                                <a href="#">تواصل معنا</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden md:flex flex-row-reverse items-center lg:mx-[20px]">
+                        <img src="./img/flag.png" alt="suadiFlag" width="35px" class="mx-2">
+                        <i class="ri-search-line text-[20px] cursor-pointer text-white hover:text-green-600 transition mx-2"></i>
+                        <a href="#" class="w-[110px] bg-green-600 mx-2 text-white text-sm text-center font-bold	p-2 rounded-full hover:bg-green-500 transition">تواصل معنا</a>
+                    </div>
+                    <div class="md:hidden">
+                        <i class="ri-menu-2-line text-[30px]"></i>
+                    </div>
+            </nav>
+            <div class="container min-h-screen flex flex-col justify-center items-center md:w-[60%] mx-auto">
+                <h1 class="text-[40px] md:text-[55px] text-center text-white font-semibold">استمتع بأروع الرحلات الترفيهية في ربوع المملكة</h1>
+                <p class="text-[15px] text-center my-3 text-white">نقدم لكم اروع التجارب لاستكشاف جمال المملكة العربية السعودية ومعالمها الساحرة</p>
+                <a href="#" class="w-[110px] bg-green-600 mx-2 text-white text-sm text-center font-bold	p-2 rounded-full hover:bg-green-500 transition">احجز الأن</a>
+            </div>
+     </header>
+     <!--next-travel -->
+     <div class="container flex flex-col min-h-screen justify-center items-center mx-auto overflow-clip">
+        <div class="px-8 xl:px-[100px] w-full flex flex-row-reverse justify-between items-center my-10">
+            <h3 class="text-[22px] md:text-[30px] font-bold">الرحلات القادمة</h3>
+            <div>
+                <i class="ri-arrow-left-s-line p-2 mx-1 bg-green-600 rounded-full text-[20px] text-white cursor-pointer hover:bg-green-500 transition"></i>
+                <i class="ri-arrow-right-s-line p-2 mx-1 bg-gray-100 rounded-full text-[20px] cursor-pointer hover:bg-gray-400 transition"></i>
+            </div>
+        </div>
+        <div  class="flex flex-wrap justify-center items-center">
+            <div class="w-[300px] overflow-clip rounded-[15px] m-4 border">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">3.5</h5>
+                </div>
+                <img src="./img/img1.jpg" alt="img3" class="h-[225px]">
+                <h1 class="text-right font-bold m-2">مدائن صالح</h1>
+                <p class="text-right text-[14px] text-gray-600 m-2"> العربية السعوديةالعربية السعودية العربية السعودية العربية السعوديةالعربية السعودية</p>
+                <hr>
+                <div dir="rtl" class="flex justify-between items-center my-4">
+                    <h4 class="w-[60px] bg-green-200 mx-2 text-green-800 text-[12px] text-center font-bold	p-1 rounded-full">متاح الأن</h4>
+                    <h4 class="mx-2">30 يوم</h4>
+                </div>
+                <div class="flex flex-row-reverse justify-between items-center my-4">
+                    <div dir="rtl" class="flex items-center">
+                        <h4 class="mx-2">200 ريال</h4>
+                        <span class="text-gray-400 text-[14px]">23 اكتوبر</span>
+                    </div>
+                    <div>
+                        <a href="#" class="w-[110px] bg-green-600 mx-2 text-white text-sm text-center font-bold	p-2 rounded-[12px] hover:bg-green-500 transition">احجز الأن</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[300px] overflow-clip rounded-[15px] m-4 border">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">3.5</h5>
+                </div>
+                <img src="./img/img2.jpg" alt="img2" class="h-[225px]">
+                <h1 class="text-right font-bold m-2">مدائن صالح</h1>
+                <p class="text-right text-[14px] text-gray-600 m-2"> العربية السعوديةالعربية السعودية العربية السعودية العربية السعوديةالعربية السعودية</p>
+                <hr>
+                <div dir="rtl" class="flex justify-between items-center my-4">
+                    <h4 class="w-[60px] bg-green-200 mx-2 text-green-800 text-[12px] text-center font-bold	p-1 rounded-full">متاح الأن</h4>
+                    <h4 class="mx-2">30 يوم</h4>
+                </div>
+                <div class="flex flex-row-reverse justify-between items-center my-4">
+                    <div dir="rtl" class="flex items-center">
+                        <h4 class="mx-2">200 ريال</h4>
+                        <span class="text-gray-400 text-[14px]">23 اكتوبر</span>
+                    </div>
+                    <div>
+                        <a href="#" class="w-[110px] bg-green-600 mx-2 text-white text-sm text-center font-bold	p-2 rounded-[12px] hover:bg-green-500 transition">احجز الأن</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[300px] overflow-clip rounded-[15px] m-4 border">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">3.5</h5>
+                </div>
+                <img src="./img/img3.jpg" alt="img3" class="h-[225px]">
+                <h1 class="text-right font-bold m-2">مدائن صالح</h1>
+                <p class="text-right text-[14px] text-gray-600 m-2"> العربية السعوديةالعربية السعودية العربية السعودية العربية السعوديةالعربية السعودية</p>
+                <hr>
+                <div dir="rtl" class="flex justify-between items-center my-4">
+                    <h4 class="w-[60px] bg-green-200 mx-2 text-green-800 text-[12px] text-center font-bold	p-1 rounded-full">متاح الأن</h4>
+                    <h4 class="mx-2">30 يوم</h4>
+                </div>
+                <div class="flex flex-row-reverse justify-between items-center my-4">
+                    <div dir="rtl" class="flex items-center">
+                        <h4 class="mx-2">200 ريال</h4>
+                        <span class="text-gray-400 text-[14px]">23 اكتوبر</span>
+                    </div>
+                    <div>
+                        <a href="#" class="w-[110px] bg-green-600 mx-2 text-white text-sm text-center font-bold	p-2 rounded-[12px] hover:bg-green-500 transition">احجز الأن</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- activaty -->
+    <div class="container flex flex-col min-h-screen justify-center items-center mx-auto overflow-clip">
+        <div class="px-8 xl:px-[100px] w-full flex flex-row-reverse justify-between items-center my-10">
+            <h3 class="text-[22px] md:text-[30px] font-bold">نشاطتنا</h3>
+            <div class="flex justify-center items-center text-[15px] font-bold text-white text-center bg-green-600 py-1 px-2 rounded-full cursor-pointer hover:bg-green-500 transition">
+                <i class="ri-arrow-left-s-line"></i>
+                <h3>احجز الأن</h3>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-center items-center">
+            <div class="w-full md:w-[400px] h-full rounded-xl m-4 overflow-clip">
+                <div class="flex flex-row-reverse justify-center items-center mx-auto my-2">
+                    <div class="bg-[url('./img/desert.jpg')] bg-cover bg-center h-[150px] w-[150px] rounded-xl">
+                        <div class="relative text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black w-[30px] rounded-full cursor-pointer">
+                            <i class="ri-play-fill text-[20px]"></i>
+                        </div>
+                    </div>
+                    <div dir="rtl" class="p-5">
+                        <h3 class="mb-[15px] text-[20px] font-bold">رحلات صحراوية</h3>
+                        <p class="my-[20px] text-gray-400 text-[15px]">تجربة تجربة تجربة تجربة تجربة</p>
+                        <a href="#" class="text-gray-600 text-[15px]">المزيد التفاصيل ></a>
+                    </div>
+                </div>
+                <div class="flex flex-row-reverse justify-center items-center mx-auto my-2">
+                    <div class="bg-[url('./img/sea.jpg')] bg-cover bg-center h-[150px] w-[150px] rounded-xl">
+                        <div class="relative text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black w-[30px] rounded-full cursor-pointer">
+                            <i class="ri-play-fill text-[20px]"></i>
+                        </div>
+                    </div>
+                    <div dir="rtl" class="p-5">
+                        <h3 class="mb-[15px] text-[20px] font-bold">رحلات بحرية</h3>
+                        <p class="my-[20px] text-gray-400 text-[15px]">تجربة تجربة تجربة تجربة تجربة</p>
+                        <a href="#" class="text-gray-600 text-[15px]">المزيد التفاصيل ></a>
+                    </div>
+                </div>
+                <div class="flex flex-row-reverse justify-center items-center mx-auto my-2">
+                    <div class="bg-[url('./img/mountain.jpg')] bg-cover bg-center h-[150px] w-[150px] rounded-xl">
+                        <div class="relative text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black w-[30px] rounded-full cursor-pointer">
+                            <i class="ri-play-fill text-[20px]"></i>
+                        </div>
+                    </div>
+                    <div dir="rtl" class="p-5">
+                        <h3 class="mb-[15px] text-[20px] font-bold">رحلات جبلية</h3>
+                        <p class="my-[20px] text-gray-400 text-[15px]">تجربة تجربة تجربة تجربة تجربة</p>
+                        <a href="#" class="text-gray-600 text-[15px]">المزيد التفاصيل ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[url('./img/act-fire.jpg')] bg-cover bg-center w-[350px] h-[350px] md:w-[500px] md:h-[500px] rounded-xl mx-2 overflow-clip">
+                <div class="relative text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black w-[45px] rounded-full cursor-pointer">
+                    <i class="ri-play-fill text-[30px]"></i>
+                </div>
+                <div dir="rtl" class="relative mx-auto text-center text-white text-[20px] font-medium">
+                    <p>ليالي تحت السماء المليئة بالنجوم مع جلسات سمر بجانب النار.</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- t-1 -->
+    <div class="container flex flex-col min-h-screen justify-center items-center mx-auto overflow-clip my-[50px]">
+        <div class="flex flex-wrap justify-center items-center">
+            <div class="bg-[url('./img/tent.jpg')] bg-cover bg-center w-[400px] h-[500px] rounded-xl m-4 overflow-clip">
+            </div>
+            <div dir="rtl" class="w-[350px] h-full md:w-[500px] md:h-full rounded-xl mx-2 overflow-clip text-center lg:text-right">
+                <h3 class="text-[30px] font-medium">رحلاتنا تتناسب مع جميع الاذواق و الثقافات</h3>
+                <h4 class="text-[18px] font-medium my-2 text-right">رحلات ثقافية و تاريخية</h4>
+                <ul class="mr-6 text-gray-400 text-right">
+                    <li>اختر الوجهة الثقافية التي ترغب في زيارتها.</li>
+                    <li>خطط لزيارة المعالم التاريخية المهمة في تلك الوجهة.</li>
+                    <li>تعلم عن التراث الثقافي والتاريخي للمكان.</li>
+                </ul>
+                <h4 class="text-[18px] font-medium my-2 text-right">رحلات بحرية</h4>
+                <ul class="mr-6 text-gray-400 text-right">
+                    <li>رحلات الغوص في المرجانات</li>
+                    <li>مشاهدة الحيتان والدلافين</li>
+                    <li>رحلات الصيد البحري</li>
+                </ul>
+                <h4 class="text-[18px] font-medium my-2 text-right">رحلات عائلية</h4>
+                <ul class="mr-6 text-gray-400 text-right">
+                    <li>رحلات إلى المتنزهات المائية والملاهي</li>
+                    <li>رحلات لمشاهدة الحيوانات في البراري والحدائق الحيوانية</li>
+                    <li>رحلات للتخييم والنزهات في الطبيعة</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- t-2 -->
+    <div class="container flex flex-col min-h-screen justify-center items-center mx-auto overflow-clip">
+        <div class="px-8 xl:px-[100px] w-full flex flex-row-reverse justify-between items-center my-10">
+            <h3 class="text-[22px] md:text-[30px] font-bold">رحلات قمنا بها لا تنسي</h3>
+            <div class="flex justify-center items-center text-[15px] font-bold text-white text-center bg-green-600 py-1 px-2 rounded-full cursor-pointer hover:bg-green-500 transition">
+                <i class="ri-arrow-left-s-line"></i>
+                <h3>المزيد</h3>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-center">
+            <!-- card -->
+             <a href="#" class="w-[300px] overflow-clip rounded-[15px] m-4 border flex flex-col gap-1 transition hover:scale-110">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">5.0</h5>
+                </div>
+                <img class="h-[225px]" src="img/travel1.jpg" alt="">
+                <div dir="rtl" class="flex justify-between items-center m-4">
+                    <h3>مدائن صالح</h3>
+                    <h4 class="w-[60px] bg-yellow-200 text-yellow-800 text-[12px] text-center font-bold p-1 rounded-full">تمت</h4>
+                </div>
+                <p class="text-right text-gray-400 m-4">السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية</p>
+                <p dir="rtl" class="m-4 text-gray-500 text-[14px]">10 يناير</p>
+             </a>
+                         <!-- card -->
+             <a href="#" class="w-[300px] overflow-clip rounded-[15px] m-4 border flex flex-col gap-1 transition hover:scale-110">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">5.0</h5>
+                </div>
+                <img class="h-[225px]" src="img/travel2.jpg" alt="">
+                <div dir="rtl" class="flex justify-between items-center m-4">
+                    <h3>مدائن صالح</h3>
+                    <h4 class="w-[60px] bg-yellow-200 text-yellow-800 text-[12px] text-center font-bold p-1 rounded-full">تمت</h4>
+                </div>
+                <p class="text-right text-gray-400 m-4">السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية</p>
+                <p dir="rtl" class="m-4 text-gray-500 text-[14px]">10 يناير</p>
+             </a>
+                <!-- card -->
+             <a href="#" class="w-[300px] overflow-clip rounded-[15px] m-4 border flex flex-col gap-1 transition hover:scale-110">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">5.0</h5>
+                </div>
+                <img class="h-[225px]" src="img/travel3.jpg" alt="">
+                <div dir="rtl" class="flex justify-between items-center m-4">
+                    <h3>مدائن صالح</h3>
+                    <h4 class="w-[60px] bg-yellow-200 text-yellow-800 text-[12px] text-center font-bold p-1 rounded-full">تمت</h4>
+                </div>
+                <p class="text-right text-gray-400 m-4">السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية</p>
+                <p dir="rtl" class="m-4 text-gray-500 text-[14px]">10 يناير</p>
+             </a>
+                         <!-- card -->
+             <a href="#" class="w-[300px] overflow-clip rounded-[15px] m-4 border flex flex-col gap-1 transition hover:scale-110">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">5.0</h5>
+                </div>
+                <img class="h-[225px]" src="img/travel4.jpg" alt="">
+                <div dir="rtl" class="flex justify-between items-center m-4">
+                    <h3>مدائن صالح</h3>
+                    <h4 class="w-[60px] bg-yellow-200 text-yellow-800 text-[12px] text-center font-bold p-1 rounded-full">تمت</h4>
+                </div>
+                <p class="text-right text-gray-400 m-4">السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية</p>
+                <p dir="rtl" class="m-4 text-gray-500 text-[14px]">10 يناير</p>
+             </a>
+                         <!-- card -->
+             <a href="#" class="w-[300px] overflow-clip rounded-[15px] m-4 border flex flex-col gap-1 transition hover:scale-110">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">5.0</h5>
+                </div>
+                <img class="h-[225px]" src="img/travel5.jpg" alt="">
+                <div dir="rtl" class="flex justify-between items-center m-4">
+                    <h3>مدائن صالح</h3>
+                    <h4 class="w-[60px] bg-yellow-200 text-yellow-800 text-[12px] text-center font-bold p-1 rounded-full">تمت</h4>
+                </div>
+                <p class="text-right text-gray-400 m-4">السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية</p>
+                <p dir="rtl" class="m-4 text-gray-500 text-[14px]">10 يناير</p>
+             </a>
+                         <!-- card -->
+             <a href="#" class="w-[300px] overflow-clip rounded-[15px] m-4 border flex flex-col gap-1 transition hover:scale-110">
+                <div class="flex items-center p-1 rounded-full bg-gray-400 bg-opacity-50 absolute mt-2 ml-3 w-[60px]">
+                    <i class="ri-star-fill text-yellow-500 text-[12px] mx-1"></i>
+                    <h5 class="text-white font-medium text-[12px] mx-1">5.0</h5>
+                </div>
+                <img class="h-[225px]" src="img/travel1.jpg" alt="">
+                <div dir="rtl" class="flex justify-between items-center m-4">
+                    <h3>مدائن صالح</h3>
+                    <h4 class="w-[60px] bg-yellow-200 text-yellow-800 text-[12px] text-center font-bold p-1 rounded-full">تمت</h4>
+                </div>
+                <p class="text-right text-gray-400 m-4">السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية السعوديةالعربية</p>
+                <p dir="rtl" class="m-4 text-gray-500 text-[14px]">10 يناير</p>
+             </a>
+        </div>
+    </div>
+    <div class="container flex flex-col min-h-screen justify-center items-center mx-auto overflow-clip">
+        <div class="relative bg-[url('./img/contact-background.jpg')] bg-cover bg-center md:m-[40px] p-[40px] flex flex-wrap justify-center items-center md:rounded-xl w-full">
+            <div class="absolute inset-0 bg-black opacity-50 md:rounded-xl"></div>
+            <div dir="rtl" class="relative w-[500px] mx-auto my-[50px]">
+                <h3 class="text-[30px] text-white font-bold leading-[50px]">مع رحلاتي ستحقق احلامك و تزور كل معالم المملكة</h3>
+                <p class="text-[16px] text-gray-200">
+                    انضم إلينا في رحلات لا تُنسى، حيث يمكنك استكشاف أجمل المعالم السياحية في المملكة. سنأخذك في مغامرات فريدة لتعيش تجارب ثقافية وطبيعية مذهلة. سواء كنت تبحث عن الاسترخاء في الشواطئ الخلابة أو اكتشاف المواقع التاريخية الرائعة، رحلاتنا مصممة لتناسب جميع الأذواق.
+                </p>
+            </div>
+            <div dir="rtl" class="relative mx-auto my-[50px]">
+                <h3 class="text-[35px] text-white font-medium text-center md:text-right">احجز معنا الأن</h3>
+                <p class="text-[16px] text-gray-200 text-center md:text-right">لا تنتظر قم بالحجز معنا الأن لتستمتع بأفضل رحله صيفية</p>
+                <div class="my-2 flex flex-wrap justify-between items-center mt-4">
+                    <input type="text" id="frist-name" name="frist-name" placeholder="الأسم الأول" class="text-[14px] font-medium p-1 border-hidden rounded-md w-full md:w-[250px] h-[35px] my-4 md:my-0 md:ml-2">
+                    <input type="text" id="last-name" name="last-name" placeholder="الأسم الثاني" class="text-[14px] font-medium p-1 border-hidden rounded-md w-full md:w-[250px] h-[35px]">
+                </div>
+                <input type="text" id="email" name="email" placeholder="البريد الإلكتروني" class="text-[14px] font-medium p-1 border-hidden rounded-md w-full h-[35px] my-2">
+                <input type="text" id="phone" name="phone" placeholder="رقم الهاتف" class="text-[14px] font-medium p-1 border-hidden rounded-md w-full h-[35px] my-2">
+                <button type="button" class="text-white text-[14px] font-medium p-1 rounded-md w-full h-[35px] my-2 bg-green-600 hover:bg-green-500 transition">حجز</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col justify-center items-center p-10 mx-auto overflow-clip bg-black">
+    <div dir="rtl" class="flex flex-wrap justify-center">
+        <div class="w-[300px] lg:w-[500px] m-[20px]">
+            <img src="./img/logo.png" alt="LOGO" width="40px" class="mx-2 lg:mx-5">
+            <p class="text-[15px] text-gray-400 m-2 lg:m-5">"رحلتي" هو موقع إلكتروني مخصص لتقديم خدمات السياحة والسفر للمستخدمين في المملكة العربية السعودية وخارجها. يهدف الموقع إلى تيسير عملية حجز الرحلات السياحية واستكشاف الوجهات المختلفة، سواء كانت ثقافية، تاريخية، طبيعية، أو ترفيهية.</p>
+            <div class="text-white mx-2 lg:mx-5">
+                <a href="#" class="mx-1 hover:text-green-600 transition">
+                    <i class="ri-youtube-fill"></i>
+                </a>
+                <a href="#" class="mx-1 hover:text-green-600 transition">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+                <a href="#" class="mx-1 hover:text-green-600 transition">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="#" class="mx-1 hover:text-green-600 transition">
+                    <i class="ri-facebook-circle-fill"></i>
+                </a>
+            </div>
+        </div>
+        <div class="w-[250px] m-[20px] flex justify-between text-white">
+            <div>
+                <h3 class="text-[18px] font-medium m-2">الخدمات</h3>
+                <ul class="mx-2">
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">الجولات السياحية</a>
+                    </li>
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">البرامج الترفيهية</a>
+                    </li>
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">مغامرات الطبيعة</a>
+                    </li>
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">رحلات الاستكشاف</a>
+                    </li>
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">الأنشطة الثقافية</a>
+                    </li>
+                </ul>
+            </div>            
+            <div>
+                <h3 class="text-[18px] font-medium m-2">الأقسام</h3>
+                <ul class="mx-2">
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">الجولات</a>
+                    </li>
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">البرامج</a>
+                    </li>
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">المغامرات</a>
+                    </li>
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">الاستكشافات</a>
+                    </li>
+                    <li class="text-[15px] text-gray-400 m-2 hover:text-green-600 transition">
+                        <a href="">الأنشطة</a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+        <div class="w-[200px] m-[20px] text-white">
+            <h3 class="text-[18px] font-medium  m-2">معلومات التواصل</h3>
+            <ul dir="rtl" class="m-2">
+                <li>
+                    <i class="ri-map-pin-fill ml-2"></i>
+                    <span class="text-[15px]">السعودية , جدة</span>
+                </li>
+                <li>
+                    <i class="ri-mail-fill ml-2"></i>
+                    <span class="text-[15px]">أرقام العمل</span>
+                    <div class="text-[14px] font-light text-gray-400 mr-7">
+                        <h4>01234567890</h4>
+                        <h4>01234567890</h4>
+                    </div>
+                </li>
+                <li>
+                    <span class="text-[15px]">rahalaty@info.com</span>
+                    <i class="ri-briefcase-fill ml-2"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="text-[14px] text-gray-500 mt-4">©2024 جميع الحقوق محفوظة, رحلاتي</p>
+    </div>
+</body>
+</html>
